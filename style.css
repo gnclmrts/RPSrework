@@ -1,0 +1,69 @@
+html{
+    background: rgb(5, 71, 73);
+    font-family: sans-serif;
+}
+
+body{
+    margin: auto;
+}
+
+.scoreboard{
+    display: flex;
+    flex-wrap: wrap;
+    flex: auto;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 20%;
+    border: 3px solid white;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+}
+
+.score{
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+    flex-basis: auto;
+    flex-grow: inherit;
+    font-weight: bold;
+}
+
+#round-info{
+    flex: 1 100%;
+    height: 30%;
+    align-items: flex-end;
+    align-self: flex-end;
+}
+
+.play-round{
+    margin: 10vh auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+}
+
+.play-button{
+    cursor: pointer;
+    border: none;
+    width: 100px;
+    height: 40px;
+    transition: all 0.2s;
+    margin: auto;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    background: rgb(1, 46, 48);
+    border: 3px solid black;
+    border-radius: 3px;
+}
+
+.play-button:hover{
+    background: rgb(0, 0, 0); 
+}
+
+
